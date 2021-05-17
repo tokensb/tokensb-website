@@ -1,6 +1,6 @@
 # tokensb
 
-[tokensb.vercel.app](https://tokensb.vercel.app/)
+[tokensb.github.io](https://tokensb.github.io/)
 
 ## Getting Started
 

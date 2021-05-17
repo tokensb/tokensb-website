@@ -9,7 +9,8 @@
     "start": "next start -p 3012",
     "format-staged": "pretty-quick --staged",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit",
-    "lint": "eslint . --ext js,jsx,ts,tsx --fix"
+    "lint": "eslint . --ext js,jsx,ts,tsx --fix",
+    "export": "next export"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.1",
