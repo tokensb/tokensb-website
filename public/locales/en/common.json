@@ -1,0 +1,47 @@
+{
+  "lang": {
+    "select": "Select Language",
+    "en": "English",
+    "zh": "中文"
+  },
+  "home": "Home",
+  "sbToken": "SB Token",
+  "title": "SB Token",
+  "wallet": {
+    "connect": "Connect Wallet",
+    "error": {
+      "testnet": "You're connected to a testnet network.",
+      "noEthereumProviderError": "No browser wallet extension detected, install MetaMask on desktop or visit from a dApp browser on mobile.",
+      "unsupportedChainIdError": "You're connected to an unsupported network.",
+      "userRejectedRequestErrorInjected": "Please authorize this website to access your account.",
+      "unknown": "An unknown error occurred. Check the console for more details."
+    }
+  },
+  "menu": {
+    "about": "About",
+    "code": "Code",
+    "airdrop": "Airdrop"
+  },
+  "slogan": {
+    "everyone": "Everyone",
+    "has": "has",
+    "is": "is",
+    "sb": "sb",
+    "consensus": "consensus",
+    "readWhitepaper": "Read sb paper"
+  },
+  "swap": {
+    "swap": "Swap",
+    "hecoChain": "Huobi ECO Chain",
+    "nftDesc": "Unique SB NFT with unlimited imagination. True consensus artwork. True sb.",
+    "sbDesc": "After each swap, the ratio will be reduced by 0.01% until it reaches 1 HT = 1 SB",
+    "swapDesc": "Each address can only swap once and only 10 {{unit}} allowed",
+    "btnApprove": "Approve",
+    "btnSwap": "Swap",
+    "btnConnect": "Please Connect Wallet"
+  },
+  "404": "404 - Page Not Found",
+  "50x": "An error {{statusCode}} occurred on server",
+  "500": "An error occurred on client",
+  "backHome": "Back Home"
+}

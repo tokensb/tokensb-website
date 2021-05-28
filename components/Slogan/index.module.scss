@@ -1,0 +1,35 @@
+.sloganContainer {
+  padding: 30px 0;
+  .slogan {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: #fff;
+
+    .typewriter {
+      color: #ff007a;
+
+      .Typewriter {
+        display: inline-block;
+      }
+    }
+
+    .emphasize {
+      color: #fda32b;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 28px;
+    }
+  }
+
+  .btn {
+    font-weight: normal;
+    font-size: 24px;
+    padding: 20px 24px;
+    color: #fda32b;
+    border-color: #fda32b;
+    margin-top: 30px;
+  }
+}

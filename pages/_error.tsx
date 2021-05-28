@@ -1,16 +1,12 @@
 import { NextPageContext } from 'next';
 import NotFound from '../components/NotFound';
+import { useTranslation } from 'next-i18next';
 
 function Error({ statusCode }: { statusCode: number | undefined }) {
+  const { t } = useTranslation('common');
   return (
     <NotFound
-      title={
-        statusCode
-          ? statusCode === 404
-            ? ''
-            : `An error ${statusCode} occurred on server`
-          : 'An error occurred on client'
-      }
+      title={statusCode ? (statusCode === 404 ? '' : t('50x', { statusCode })) : t('500')}
     />
   );
 }

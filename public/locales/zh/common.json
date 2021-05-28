@@ -1,0 +1,47 @@
+{
+  "lang": {
+    "select": "选择语言",
+    "en": "English",
+    "zh": "中文"
+  },
+  "home": "主页",
+  "sbToken": "SB 通证",
+  "title": "SB 通证",
+  "wallet": {
+    "connect": "连接钱包",
+    "error": {
+      "testnet": "请注意，您连接的是测试网络。",
+      "noEthereumProviderError": "没有检测到钱包插件，请安装 Metamask（https://metamask.io）",
+      "unsupportedChainIdError": "不支持您连接的区块链网络，请切换网络。",
+      "userRejectedRequestErrorInjected": "请在钱包插件中同意认证以访问您的账户。",
+      "unknown": "发生了一个神奇的未知错误。"
+    }
+  },
+  "menu": {
+    "about": "关于",
+    "code": "代码",
+    "airdrop": "空投"
+  },
+  "slogan": {
+    "everyone": "每个人",
+    "has": "都有",
+    "is": "都是",
+    "sb": "SB",
+    "consensus": "共识",
+    "readWhitepaper": "阅读 SB 白皮书"
+  },
+  "swap": {
+    "swap": "兑换",
+    "hecoChain": "火币生态链",
+    "nftDesc": "每个 SB NFT 都是具有无限想象力且独一无二的，真正的共识艺术品，真正的 SB。",
+    "sbDesc": "在每次兑换后，兑换比例将减少 0.01%，直到 1 HT = 1 SB",
+    "swapDesc": "每个地址只能兑换一次，每次只允许兑换 10 {{unit}}",
+    "btnApprove": "授权",
+    "btnSwap": "兑换",
+    "btnConnect": "请连接钱包"
+  },
+  "404": "404 - 页面不存在",
+  "50x": "服务器发生 {{statusCode}} 错误",
+  "500": "客户端发生错误",
+  "backHome": "返回首页"
+}

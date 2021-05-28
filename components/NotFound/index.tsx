@@ -7,8 +7,10 @@ import {
   Container,
 } from '@chakra-ui/react';
 import Link from 'next/link';
+import { useTranslation } from 'next-i18next';
 
-function NotFound({ title }: { title?: string }) {
+export default function NotFound({ title }: { title?: string }) {
+  const { t } = useTranslation('common');
   return (
     <Center h="100vh">
       <Container maxW="container.xl">
@@ -23,15 +25,13 @@ function NotFound({ title }: { title?: string }) {
         >
           <AlertIcon boxSize="40px" mr={0} />
           <AlertTitle mt={4} mb={1} fontSize="lg">
-            {title || '404 - Page Not Found'}
+            {title || t('404')}
           </AlertTitle>
           <AlertDescription maxWidth="sm">
-            <Link href="/">Back Home</Link>
+            <Link href="/">{t('backHome')}</Link>
           </AlertDescription>
         </Alert>
       </Container>
     </Center>
   );
 }
-
-export default NotFound;
