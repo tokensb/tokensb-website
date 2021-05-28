@@ -1,6 +1,6 @@
-import { NextPageContext } from 'next';
 import NotFound from '../components/NotFound';
 import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 function Error({ statusCode }: { statusCode: number | undefined }) {
   const { t } = useTranslation('common');
@@ -11,9 +11,22 @@ function Error({ statusCode }: { statusCode: number | undefined }) {
   );
 }
 
-Error.getInitialProps = ({ res, err }: NextPageContext) => {
+export const getStaticProps = async ({
+  locale,
+  res,
+  err,
+}: {
+  locale: string;
+  res: any;
+  err: any;
+}) => {
   const statusCode = res ? res.statusCode : err ? err.statusCode : 404;
-  return { statusCode };
+  return {
+    props: {
+      statusCode,
+      ...(await serverSideTranslations(locale, ['common'])),
+    },
+  };
 };
 
 export default Error;

@@ -6,7 +6,7 @@ import SelectLocale from '../SelectLocale';
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 
-export default function Header() {
+export default function Header({ hasWalletConnect = true }: { hasWalletConnect?: boolean }) {
   const { t } = useTranslation('common');
   return (
     <Flex className={styles.header}>
@@ -37,7 +37,7 @@ export default function Header() {
           </a>
         </Link>
         <SelectLocale />
-        <WalletConnect />
+        {hasWalletConnect && <WalletConnect />}
       </Box>
     </Flex>
   );

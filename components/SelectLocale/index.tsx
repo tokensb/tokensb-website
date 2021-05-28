@@ -9,6 +9,7 @@ import styles from './index.module.scss';
 
 export default function SelectLocale() {
   const router = useRouter();
+  console.log(router);
   const { t } = useTranslation('common');
   return (
     <Box className={styles.selectLocale}>
@@ -20,7 +21,7 @@ export default function SelectLocale() {
           {supportedLocales
             .filter(s => s !== router.locale)
             .map(l => (
-              <Link href="/" locale={l} key={l}>
+              <Link href={l + router.asPath} locale={l} key={l}>
                 <MenuItem>{t('lang.' + l)}</MenuItem>
               </Link>
             ))}
