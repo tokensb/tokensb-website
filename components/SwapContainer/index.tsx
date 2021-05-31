@@ -23,6 +23,7 @@ export default function SwapContainer() {
   const [sbAmount, setSbAmount] = useState<number>(0);
   const [connecting, setConnecting] = useState(false);
   const [swapState, setSwapState] = useState(SwapState.Unconnected);
+  const [nftNo, setNftNo] = useState<number | null>(null);
 
   const spender = '';
   const approveAmount = '1';
@@ -53,6 +54,7 @@ export default function SwapContainer() {
       getSwapState(library);
       setSbAmount(100000000);
     }
+    setNftNo(1);
   }, [account, library, chainId]);
 
   const handleApprove = () => {
@@ -93,9 +95,12 @@ export default function SwapContainer() {
               <div className={styles.target}>
                 <div className={styles.nft}>
                   <div className={styles.nftBox}>
-                    <NFT />
+                    <NFT uniqueNo={nftNo} />
                   </div>
-                  <div className={styles.desc}>{t('swap.nftDesc')}</div>
+                  <div className={styles.desc}>
+                    <span className={styles.nftBoxNo}>SB NFT #{nftNo}</span>
+                    <span>{t('swap.nftDesc')}</span>
+                  </div>
                 </div>
                 <div className={styles.plus}>
                   <img src="/images/plus.png" alt="And" />
