@@ -21,18 +21,23 @@ export default function Header({ hasWalletConnect = true }: { hasWalletConnect?:
       </Box>
       <Spacer />
       <Box className={styles.menus}>
-        <Link href="/">
-          <a href="/" className={styles.menu}>
-            {t('menu.about')}
+        <Link href="/whitepaper">
+          <a href="/whitepaper" className={styles.menu}>
+            {t('menu.whitepaper')}
           </a>
         </Link>
         <Link href="/">
-          <a href="/" className={styles.menu}>
+          <a
+            href="https://github.com/tokensb?tab=repositories"
+            target="_blank"
+            className={styles.menu}
+            rel="noreferrer"
+          >
             {t('menu.code')}
           </a>
         </Link>
-        <Link href="/">
-          <a href="/" className={`${styles.menu} ${styles.airdrop}`}>
+        <Link href="/airdrop">
+          <a href="/airdrop" className={`${styles.menu} ${styles.airdrop}`}>
             {t('menu.airdrop')}
           </a>
         </Link>

@@ -1,0 +1,60 @@
+.whitepaperContainer {
+  font-size: 16px;
+  color: #b7b7b7;
+  margin-bottom: 80px;
+
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #fda32b;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fda32b;
+
+    &.airdrop {
+      color: #ff007a;
+      border-color: #ff007a;
+    }
+  }
+
+  h3,
+  h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fda32b;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .spacer {
+  }
+
+  blockquote {
+    border-left: 2px solid #ff007a;
+    padding-left: 20px;
+    color: #ff007a;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  strong {
+    font-weight: 600;
+    color: #f3f3f3;
+  }
+
+  ul {
+    padding-left: 30px;
+
+    li {
+      margin-bottom: 8px;
+    }
+  }
+
+  table {
+    td {
+    }
+  }
+}

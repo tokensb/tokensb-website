@@ -20,7 +20,8 @@
   "menu": {
     "about": "About",
     "code": "Code",
-    "airdrop": "Airdrop"
+    "airdrop": "Airdrop",
+    "whitepaper": "Whitepaper"
   },
   "slogan": {
     "everyone": "Everyone",
@@ -28,7 +29,7 @@
     "is": "is",
     "sb": "sb",
     "consensus": "consensus",
-    "readWhitepaper": "Read sb paper"
+    "readWhitepaper": "Read Whitepaper"
   },
   "swap": {
     "swap": "Swap",
@@ -39,6 +40,10 @@
     "btnApprove": "Approve",
     "btnSwap": "Swap",
     "btnConnect": "Please Connect Wallet"
+  },
+  "airdrop": {
+    "airdrop": "Airdrop",
+    "comingSoon": "Free SB airdrop coming soon."
   },
   "404": "404 - Page Not Found",
   "50x": "An error {{statusCode}} occurred on server",

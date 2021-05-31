@@ -1,5 +1,15 @@
-import React from 'react';
+import { useRouter } from 'next/router';
+import en from './en';
+import zh from './zh';
 
 export default function Whitepaper() {
-  return <div>1</div>;
+  const router = useRouter();
+  switch (router.locale) {
+    case 'en':
+      return en();
+    case 'zh':
+      return zh();
+    default:
+      return en();
+  }
 }

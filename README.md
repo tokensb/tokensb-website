@@ -1,6 +1,4 @@
-# tokensb
-
-[tokensb.com](https://tokensb.com/)
+# [tokensb.com](https://tokensb.com/)
 
 ## Getting Started
 

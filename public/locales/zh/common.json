@@ -20,7 +20,8 @@
   "menu": {
     "about": "关于",
     "code": "代码",
-    "airdrop": "空投"
+    "airdrop": "空投",
+    "whitepaper": "白皮书"
   },
   "slogan": {
     "everyone": "每个人",
@@ -39,6 +40,10 @@
     "btnApprove": "授权",
     "btnSwap": "兑换",
     "btnConnect": "请连接钱包"
+  },
+  "airdrop": {
+    "airdrop": "空投",
+    "comingSoon": "免费的 SB 空投即将到来，敬请期待。"
   },
   "404": "404 - 页面不存在",
   "50x": "服务器发生 {{statusCode}} 错误",
