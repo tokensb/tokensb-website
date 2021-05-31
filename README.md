@@ -1,6 +1,6 @@
 # tokensb
 
-[tokensb.github.io](https://tokensb.github.io/)
+[tokensb.com](https://tokensb.com/)
 
 ## Getting Started
 
