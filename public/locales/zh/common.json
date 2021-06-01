@@ -12,7 +12,7 @@
     "error": {
       "testnet": "请注意，您连接的是测试网络。",
       "noEthereumProviderError": "没有检测到钱包插件，请安装 Metamask（https://metamask.io）",
-      "unsupportedChainIdError": "不支持您连接的区块链网络，请切换网络。",
+      "unsupportedChainIdError": "不支持您连接的区块链网络，请切换到 火币生态链 网络。",
       "userRejectedRequestErrorInjected": "请在钱包插件中同意认证以访问您的账户。",
       "unknown": "发生了一个神奇的未知错误。"
     }

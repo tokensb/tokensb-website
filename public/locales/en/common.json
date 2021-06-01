@@ -12,7 +12,7 @@
     "error": {
       "testnet": "You're connected to a testnet network.",
       "noEthereumProviderError": "No browser wallet extension detected, install MetaMask on desktop or visit from a dApp browser on mobile.",
-      "unsupportedChainIdError": "You're connected to an unsupported network.",
+      "unsupportedChainIdError": "You're connected to an unsupported network, please switch to Huobi ECO Chain network.",
       "userRejectedRequestErrorInjected": "Please authorize this website to access your account.",
       "unknown": "An unknown error occurred. Check the console for more details."
     }
